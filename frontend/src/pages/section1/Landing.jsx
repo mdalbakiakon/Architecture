@@ -13,16 +13,27 @@ const Landing = () => {
   useEffect(() => {
     if (!heroRef.current || !sectionRef.current) return;
 
-    gsap.to(heroRef.current, {
-      y: 250, // adjust this value for stronger or weaker parallax
+    // Set will-change for performance before animation starts
+    gsap.set(heroRef.current, { willChange: "transform" });
+
+    const animation = gsap.to(heroRef.current, {
+      yPercent: 20, // smoother + responsive parallax
       ease: "none",
+      force3D: true,
       scrollTrigger: {
         trigger: sectionRef.current,
         start: "top top",
         end: "bottom top",
-        scrub: true,
+        scrub: 1,
       },
     });
+
+    // Cleanup
+    return () => {
+      animation.scrollTrigger?.kill();
+      animation.kill();
+      gsap.set(heroRef.current, { willChange: "auto" });
+    };
   }, []);
 
   return (
@@ -41,7 +52,8 @@ const Landing = () => {
           decoding="async"
           fetchPriority="high"
           loading="eager"
-          className="w-full h-[105%] object-bottom object-cover scale-110"
+          className="w-full h-full object-bottom object-cover transform-gpu"
+          style={{ willChange: "transform" }}
         />
       </picture>
 

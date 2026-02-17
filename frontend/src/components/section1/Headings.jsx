@@ -9,10 +9,10 @@ const Headings = () => {
       </h1>
 
       {/* subtitle */}
-      <p className="text-base text-(--primary-text-col) font-medium uppercase tracking-widest w-full max-w-3xl leading-7.25">
+      <h2 className="text-base text-(--primary-text-col) font-medium uppercase tracking-widest w-full max-w-3xl leading-7.25">
         Our Design Agency Specializes In Creating Innovative And Impactful
         Solutions That Elevate Your Brand And Engage Your Audience.
-      </p>
+      </h2>
     </>
   );
 };

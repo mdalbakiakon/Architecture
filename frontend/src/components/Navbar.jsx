@@ -38,10 +38,10 @@ const Navbar = () => {
   return (
     <header
       ref={headerRef}
-      className='fixed top-7.5 right-7.5 left-7.5 bg-[#111]/50 backdrop-blur-xs rounded-full py-3 px-7.5 z-99 flex justify-between items-center'
+      className='fixed top-7.5 right-7.5 left-7.5 bg-[#111]/45 backdrop-blur-xs rounded-full py-1.5 px-7.5 z-99 flex justify-between items-center'
     >
-      <div className="logo w-75 relative -left-8.5">
-        <img src="/logo.svg" alt="" className='w-full object-center object-cover' />
+      <div className="logo w-20">
+        <img src="/log.svg" alt="" className='w-full object-center object-cover' />
       </div>
 
       <nav>
