@@ -59,14 +59,14 @@ const Section2 = () => {
     tl.to(heading.chars, {
       color: "#e5e5e5",
       ease: "power2.out",
-      stagger: 0.08, // stagger per character
+      stagger: 0.5, // stagger per character
     });
 
     // SECOND paragraph character-wise color fill AFTER first finishes
     tl.to(sub.chars, {
       color: "#e5e5e5",
       ease: "power2.out",
-      stagger: 0.05,
+      stagger: 0.3,
     });
   }, []);
 
@@ -75,7 +75,7 @@ const Section2 = () => {
       {/* Image */}
       <div>
         <img
-          src="/section_2_hero.webp"
+          src="/hero2.webp"
           alt=""
           decoding="async"
           loading="lazy"
