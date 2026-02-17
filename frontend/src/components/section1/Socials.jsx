@@ -13,7 +13,7 @@ const Socials = () => {
     <div className="w-full mt-4.5 pb-7.5 px-25 flex justify-between items-center">
       <div className="flex justify-between items-end gap-2.5">
         <p className="text-white text-3.25 leading-4 tracking-widest font-medium text-left">Social <br />Networks</p>
-        <div className="w-15 h-0.5 bg-[#d9d9d9]"></div>
+        <div className="w-15 h-0.5 bg-[#161616]"></div>
         <ul className="flex justify-between items-center gap-3.5">
           <li>
             <a href="#">
