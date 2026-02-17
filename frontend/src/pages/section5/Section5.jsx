@@ -140,8 +140,8 @@ const Section5 = () => {
                 </div>
               </div>
 
-              <div className="mt-2.5 text-[30px] leading-8 font-antonio font-extrabold uppercase text-left tracking-widest w-full text-[#d9d9d9]">
-                Greenary Exterior in<br /> City Chaos &copy; 2024
+              <div className="mt-2.5 text-[30px] leading-8 font-antonio font-extrabold uppercase text-left tracking-widest w-2/3 self-start text-[#d9d9d9]">
+                A Nature inside of City <br /> Chaos &copy; 2024
               </div>
             </div>
           </div>
@@ -174,8 +174,8 @@ const Section5 = () => {
                 </div>
               </div>
 
-              <div className="mt-2.5 text-[30px] leading-8 font-antonio font-extrabold uppercase text-left tracking-widest w-full text-[#d9d9d9]">
-                The arc of<br /> Dream &copy; 2021
+              <div className="mt-2.5 text-[30px] leading-8 font-antonio font-extrabold uppercase text-left tracking-widest w-2/3 self-start text-[#d9d9d9]">
+                The Arc of modern <br /> Dream &copy; 2021
               </div>
             </div>
           </div>
@@ -208,8 +208,8 @@ const Section5 = () => {
                 </div>
               </div>
 
-              <div className="mt-2.5 text-[30px] leading-8 font-antonio font-extrabold uppercase text-left tracking-widest w-full text-[#d9d9d9]">
-                Cozy Interior <br /> of peace &copy; 2025
+              <div className="mt-2.5 text-[30px] leading-8 font-antonio font-extrabold uppercase text-left tracking-widest w-2/3 self-start text-[#d9d9d9]">
+                Timeless spaces, soul <br /> art &copy; 2025
               </div>
             </div>
           </div>
