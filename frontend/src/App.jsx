@@ -8,6 +8,8 @@ import LinkBadge from "./components/LinkBadge";
 import Section5 from "./pages/section5/Section5";
 import Section6 from "./pages/section6/Section6";
 import Section7 from "./pages/section7/Section7";
+import Section3 from "./pages/section3/Section3";
+import Footer from "./pages/footer/Footer";
 
 function App() {
   const lenisRef = useRef();
@@ -29,10 +31,12 @@ function App() {
         <Landing />
         <LinkBadge />
         <Section2 />
+        <Section3 />
         <Section5 />
         <Section6 />
         <Section7 />
       </main>
+      <Footer />
     </ReactLenis>
   );
 }

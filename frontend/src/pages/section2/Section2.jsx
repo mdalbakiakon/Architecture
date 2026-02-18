@@ -210,7 +210,7 @@ const Section2 = () => {
       {/* Text Container */}
       <div
         id="textContainer"
-        className="mt-20 w-full max-w-5xl mx-auto flex flex-col justify-center items-start gap-10"
+        className="mt-15 w-full max-w-5xl mx-auto flex flex-col justify-center items-start gap-10"
       >
         {/* Heading */}
         <p
