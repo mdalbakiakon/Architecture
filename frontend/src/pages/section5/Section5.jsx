@@ -1,59 +1,3 @@
-// import React from "react";
-// import gsap from "gsap";
-
-// const Section5 = () => {
-
-//   return (
-//     <div className="w-full h-dvh flex flex-nowrap justify-center items-center">
-//       <div className="w-1/3 h-full relative">
-//         <img
-//           src="/Home.webp"
-//           alt=""
-//           loading="lazy"
-//           decoding="async"
-//           fetchPriority="low"
-//           className="w-full h-full object-bottom object-cover"
-//         />
-//         <div className="absolute inset-0 z-10 bg-[#111]/50">
-
-//         </div>
-//       </div>
-
-//       <div className="w-1/3 h-full relative">
-//         <img
-//           src="/mid_car.webp"
-//           alt=""
-//           loading="lazy"
-//           decoding="async"
-//           fetchPriority="low"
-//           className="w-full h-full object-center object-cover"
-//         />
-
-//         <div className="absolute inset-0 z-10 bg-[#111]/50">
-
-//         </div>
-//       </div>
-
-//       <div className="w-1/3 h-full relative z-0">
-//         <img
-//           src="/cat.webp"
-//           alt=""
-//           loading="lazy"
-//           decoding="async"
-//           fetchPriority="low"
-//           className="w-full h-full object-bottom object-cover"
-//         />
-
-//         <div className="absolute inset-0 z-10 bg-[#111]/50">
-
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Section5;
-
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -120,7 +64,8 @@ const Section5 = () => {
           ref={img1}
           src="/Home.webp"
           alt=""
-          className="w-full h-[120%] object-top object-cover"
+          className="w-full h-[120%] object-top object-cover transform-gpu"
+          style={{ willChange: "transform" }}
         />
         <div className="absolute inset-0 z-10 bg-[#111]/60">
           <div className="w-full h-full relative">
@@ -154,7 +99,8 @@ const Section5 = () => {
           ref={img2}
           src="/mid_car.webp"
           alt=""
-          className="w-full h-[120%] object-top object-cover"
+          className="w-full h-[120%] object-top object-cover transform-gpu"
+          style={{ willChange: "transform" }}
         />
         <div className="absolute inset-0 z-10 bg-[#111]/60">
           <div className="w-full h-full relative">
@@ -188,7 +134,8 @@ const Section5 = () => {
           ref={img3}
           src="/cat.webp"
           alt=""
-          className="w-full h-[120%] object-top object-cover"
+          className="w-full h-[120%] object-top object-cover transform-gpu"
+          style={{ willChange: "transform" }}
         />
         <div className="absolute inset-0 z-10 bg-[#111]/60">
           <div className="w-full h-full relative">

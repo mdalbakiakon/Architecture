@@ -41,7 +41,7 @@ const Navbar = () => {
       className='fixed top-7.5 right-7.5 left-7.5 bg-[#111]/45 backdrop-blur-xs rounded-full py-1.5 px-7.5 z-99 flex justify-between items-center'
     >
       <div className="logo w-20">
-        <img src="/log.svg" alt="" className='w-full object-center object-cover' />
+        <img src="/log.svg" alt="" className='w-full object-center object-cover relative -left-7' />
       </div>
 
       <nav>
